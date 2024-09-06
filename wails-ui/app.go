@@ -25,3 +25,7 @@ func (a *App) startup(ctx context.Context) {
 func (a *App) Greet(name string) string {
 	return fmt.Sprintf("Hello %s, It's show time!", name)
 }
+
+func (a *App) Add(num1 int, num2 int) string {
+	return fmt.Sprintf("The sum of %d and %d is %d", num1, num2, num1+num2)
+}

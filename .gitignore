@@ -5,6 +5,14 @@
 *.so
 *.dylib
 
+
+node_modules
+frontend/dist
+darwin
+windows
+bin
+
+
 # Test binary, built with `go test -c`
 *.test
 

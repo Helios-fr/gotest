@@ -10,7 +10,7 @@ type App struct {
 	ctx context.Context
 }
 
-// NewApp creates a new App application struct
+// NewApp creates a new App application struct any code that needs to run on startup should be placed here
 func NewApp() *App {
 	return &App{}
 }
